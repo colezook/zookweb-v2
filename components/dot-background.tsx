@@ -19,11 +19,10 @@ export function DotBackground({
         className={cn(
           "absolute inset-0",
           "[background-size:20px_20px]",
-          "[background-image:radial-gradient(#444444_1px,transparent_1px)]",
-          "dark:[background-image:radial-gradient(#505050_1px,transparent_1px)]",
+          "[background-image:radial-gradient(rgba(68,68,68,0.5)_1px,transparent_1px)]",
+          "dark:[background-image:radial-gradient(rgba(80,80,80,0.5)_1px,transparent_1px)]",
         )}
       />
-      
       {/* Content */}
       <div className="relative z-10">
         {children}

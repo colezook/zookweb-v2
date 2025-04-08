@@ -15,7 +15,7 @@ export default function Home() {
     <DotBackground>
       <div className="flex flex-col min-h-screen text-white">
         {/* Hero Section */}
-        <section className="flex flex-col items-center justify-center px-2 pt-20 pb-0 md:pt-32 md:pb-4">
+        <section className="flex flex-col items-center justify-center px-2 pt-[70px] md:pt-32 pb-0 md:pb-4">
           <div className="container max-w-4xl text-center">
             <motion.h1
               className="text-7xl md:text-9xl font-bold tracking-wider mb-4 md:mb-8 relative"
@@ -60,7 +60,7 @@ export default function Home() {
         </section>
 
         {/* Globe Section */}
-        <div className="w-full mt-0 md:mt-0 mb-4 md:mb-1">
+        <div className="w-full -mt-2.5 md:mt-0 mb-4 md:mb-1">
           <div className="mx-auto h-[450px] md:h-[500px] max-w-[700px]">
             <Globe />
           </div>
